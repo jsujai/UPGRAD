@@ -1,5 +1,5 @@
-# Lending Club Case Study
-> In this case study, apart from applying the techniques you have learnt in EDA, you will also develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers..
+# Project Name
+> Bike sharing assignment.
 
 
 ## Table of Contents
@@ -8,29 +8,44 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
+<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
+- Made a multiple linear regression model based on the data given for details of bike rented on the specific month, temperature etc
+- Using this model,we can predict bike sales
 
-When a person applies for a loan, there are two types of decisions that could be taken by the company:
-•	Loan accepted: If the company approves the loan, there are 3 possible scenarios described below:
-o	Fully paid: Applicant has fully paid the loan (the principal and the interest rate)
-o	Current: Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
-•	Charged-off: Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has defaulted on the loan.
-•	Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
-
-We have used this dataset, to understand which columns can be the driving variables for the loan status
-
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-We were able to determine some columns, which might affect the status of a loan, please refer the presentation for the same
+- The following columns are important wrt to prediction : 
+const
+yr
+holiday
+weekday
+workingday
+temp
+hum
+windspeed
+season
+weather
 
+
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
 - Python 3.12.5
 
+<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
+
 
 ## Contact
-Created by Jyothsna Dugasani and Sujai Jain
+Created by [@jsujai] - feel free to contact me!
 
 
+<!-- Optional -->
+<!-- ## License -->
+<!-- This project is open source and available under the [... License](). -->
+
+<!-- You don't have to include all sections - just the one's relevant to your project -->
